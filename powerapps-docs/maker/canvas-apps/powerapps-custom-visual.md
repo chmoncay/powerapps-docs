@@ -67,12 +67,12 @@ Let's look at the steps required to use the PowerApps custom visual in your Powe
 
 The PowerApps custom visual is available in preview and has these limitations:
 
-- You can't create or modify apps when using the PowerApps custom visual in Power BI desktop, Internet Explorer, or Mozilla Firefox. We recommend that you first publish your report to the Power BI service. Then use Microsoft Edge or Google Chrome to create and update apps.
+- You can't create or modify apps when using the PowerApps custom visual in Power BI desktop, Internet Explorer or Mozilla Firefox. We recommend that you first publish your report to the Power BI service. Then use Microsoft Edge or Google Chrome to create and update apps.
 - If you change the data fields associated with the visual, you must edit the app from within the Power BI service by selecting the ellipsis (...) and then selecting **Edit**. Otherwise, the changes won't be propagated to PowerApps, and the app will behave in unexpected ways.
 - The PowerApps custom visual can't trigger a refresh of the Power BI report or Power BI data source. If you write back data from the app to the same data source as the report, your changes won't be reflected immediately. Changes are reflected on the next scheduled refresh.
 - The PowerApps custom visual can't filter the data or send any data back to the report.
 - You'll need to share the PowerApps app separately from your report. Learn about [sharing apps in PowerApps](share-app.md).
-- Power BI Report Server and the mobile app for Power BI don't support the PowerApps custom visual.
+- PowerApps custom visual is not supported in the following products: Power BI Report Server, mobile app for Power BI and Internet Explorer.
 
 ## Next steps
 
