@@ -153,5 +153,10 @@ If clicking anywhere in a gallery item is meant to select it, there must be adeq
     > [!NOTE]
   > Controls outside the gallery are not considered in the keyboard navigation order within the gallery. [TabIndex](properties-accessibility.md) controls inside a gallery are scoped. See [accessibility properties](properties-accessibility.md) to learn more.
 
+### Gallery performance tips
+
+Depending on the configuration, Gallery can take longer to render the visible rows. Simplifying the template could make a big difference.
+You should also ensure the Gallery instance has **DelayItemLoading** set to **true**, and **LoadingSpinner** set to **LoadingSpinner.Controls**, which should improve the perceived experience when render time is longer. This also has the added benefit of allowing the screen to render faster when first navigated to since both gallery and screen are not competing for resources.
+
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
